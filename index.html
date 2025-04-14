@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Html</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Advanced HTML Page</h1>
+    <p>This page includes a list, an image, contact table, and a registration form.</p>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Beautiful Nature Image</h2>
+    <img 
+      src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+      alt="Nature Scenery" 
+      width="1000" 
+    />
+  </section>
+
+  <!-- Table of Contacts -->
+  <section>
+    <h2>Contact List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>123 Elm Street</td>
+          <td>+2344567890</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>456 Oak Avenue</td>
+          <td>+2345678901</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>Mike Johnson</td>
+          <td>789 Maple Road</td>
+          <td>+3456789012</td>
+          <td>mike@example.com</td>
+        </tr>
+        <tr>
+          <td>Emily Davis</td>
+          <td>321 Pine Lane</td>
+          <td>+4567890123</td>
+          <td>emily@example.com</td>
+        </tr>
+        <tr>
+          <td>Chris Brown</td>
+          <td>654 Birch Blvd</td>
+          <td>+2335678901234</td>
+          <td>chris@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form>
+      <!-- Name Field -->
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+      </div>
+
+      <!-- Email Field -->
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+
+      <!-- Password Field -->
+      <div class="form-group">
+        <label for="password">Password *</label>
+        <input type="password" id="password" name="password" placeholder="Enter a secure password" minlength="6" required />
+      </div>
+
+      <!-- Date Field -->
+      <div class="form-group">
+        <label for="dob">Date of Birth *</label>
+        <input type="date" id="dob" name="dob" required />
+      </div>
+
+      <!-- Dropdown -->
+      <div class="form-group">
+        <label for="country">Country *</label>
+        <select id="country" name="country" required>
+          <option value="">-- Select Country --</option>
+          <option value="nigeria">Nigeria</option>
+          <option value="ghana">Ghana</option>
+          <option value="kenya">Kenya</option>
+          <option value="south-africa">South Africa</option>
+        </select>
+      </div>
+
+      <!-- Radio Buttons -->
+      <div class="form-group">
+        <label>Gender *</label>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required />
+        <label for="female">Female</label>
+      </div>
+
+      <!-- Checkboxes -->
+      <div class="form-group">
+        <label>Interests</label>
+        <input type="checkbox" id="coding" name="interests" value="coding" />
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="music" name="interests" value="music" />
+        <label for="music">Music</label>
+        <input type="checkbox" id="travel" name="interests" value="travel" />
+        <label for="travel">Travel</label>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="form-group">
+        <button type="submit">Register</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Advanced HTML PLP Academy. All rights reserved.</p>
+  </footer>    
+</body>
+</html>
